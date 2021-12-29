@@ -1,20 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Alexey Semenov</title>
-</head>
-<body>
-<p>Alexey Semenov</p>
-<p>QA Automation Engineer (Python)</p>
+---
+layout: default
+---
 
-<p>
-  <ul>
-    <a href="https://github.com/acqa">Git</a>
-    <a href="http://linkedin.com/in/alexey-semenov-ru">Linkedin</a>
-    <a href="https://nn.hh.ru/resume/dc0dc848ff09882d790039ed1f4b444c4d4c39">CV(Ru)</a>
-    <a href="https://t.me/AlexeySemenovRu">Telegram</a>
-  </ul>
-</p>
-</body>
-</html>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
