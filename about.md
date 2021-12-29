@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm an QA Automation Engineer engaged on Python
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm studing English but my speaking and listening skils aren't as good as I wanted )
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Please use links in footer to contact me
