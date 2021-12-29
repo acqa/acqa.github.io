@@ -17,10 +17,9 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  telegram: https://t.me/AlexeySemenovRu
+  telegram: AlexeySemenovRu
   github: acqa
   linkedin: http://linkedin.com/in/alexey-semenov-ru
-  hh.ru: https://nn.hh.ru/resume/dc0dc848ff09882d790039ed1f4b444c4d4c39
   
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
